@@ -1,0 +1,32 @@
+{
+    "name": "kiccer-snippets",
+    "displayName": "Kiccer Snippets",
+    "description": "个人代码片段保存",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/vue.template.code-snippets"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/vue-for.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/rand.num.str.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/rand.num.str.code-snippets"
+            }
+        ]
+    }
+}

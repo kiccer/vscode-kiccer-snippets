@@ -1,0 +1,20 @@
+{
+    "name": "kiccer-snippets",
+    "displayName": "Kiccer Snippets",
+    "description": "个人代码片段保存",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+.",
+                "command": "workbench.action.showCommands"
+            }
+        ]
+    }
+}
