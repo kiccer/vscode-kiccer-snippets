@@ -2,7 +2,9 @@
     "name": "kiccer-snippets",
     "displayName": "Kiccer Snippets",
     "description": "个人代码片段保存",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "publisher": "kiccer",
+    "icon": "img/logo.png",
     "engines": {
         "vscode": "^1.48.0"
     },
@@ -68,5 +70,9 @@
                 "path": "./snippets/array.fill.map.code-snippets"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kiccer/vscode-kiccer-snippets.git"
     }
 }
