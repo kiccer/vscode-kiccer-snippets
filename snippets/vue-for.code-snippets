@@ -19,8 +19,8 @@
 		"scope": "vue-html",
 		"prefix": "vfor",
 		"body": [
-			"v-for=\"(n, i) in ${0:list}\"",
-			":key=\"i\""
+			"v-for=\"(${1:n}, ${2:i}) in ${3:list}\"",
+			":key=\"${2:i}\""
 		],
 		"description": "v-for"
 	}

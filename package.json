@@ -2,7 +2,7 @@
     "name": "kiccer-snippets",
     "displayName": "Kiccer Snippets",
     "description": "个人代码片段保存",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "kiccer",
     "icon": "img/logo.png",
     "engines": {

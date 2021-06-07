@@ -18,7 +18,7 @@
 	"Print to console": {
 		"prefix": "array.fill.map",
 		"body": [
-			"Array(${1:10}).fill().map((n, i) => ({$2}))",
+			"Array(${1:10}).fill().map((n, i) => ({$0}))",
 		],
 		"description": "Log output to console"
 	}

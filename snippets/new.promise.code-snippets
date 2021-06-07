@@ -20,7 +20,7 @@
 		"prefix": "new Promise",
 		"body": [
 			"new Promise((resolve, reject) => {",
-            "    $1",
+            "    $0",
 			"})"
 		],
 		"description": "Log output to console"
